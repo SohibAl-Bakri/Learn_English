@@ -12,6 +12,7 @@ Expanded customButton({
         backgroundColor: colorBtn,
       ),
       child: Text(title),
+      
     ),
   );
 }

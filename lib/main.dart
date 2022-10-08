@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:group_lab_1/Pages/letters.dart';
+import 'package:group_lab_1/Pages/numbers.dart';
 
 void main() {
   runApp(
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Letters();
+    return Number();
+    //return Letters();
   }
 }
